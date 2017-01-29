@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Review Reminder v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-20 11:21:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-wc-advanced-review-reminder.php:208
+#@ wc-review-reminder
+msgid "Day(s) after order"
+msgstr "Antal dage efter"
+
+#: includes/class-wc-advanced-review-reminder.php:202
+#@ wc-review-reminder
+msgid "Enable/Disable"
+msgstr "Slå til/fra"
+
+#: includes/class-wc-advanced-review-reminder.php:19
+#@ wc-review-reminder
+msgid "We would love your feedback"
+msgstr "Vi vil være meget glade for dit feedback"
+
+#: includes/class-wc-advanced-review-reminder.php:20
+#@ wc-review-reminder
+msgid "Please help us by reviewing"
+msgstr "Hjælp os ved at skrive en anmeldelse"
+
+#: includes/class-wc-advanced-review-reminder.php:179
+#@ wc-review-reminder
+msgid "Replaced with the customers name."
+msgstr "Skiftes ud med kundens navn."
+
+#: includes/class-wc-advanced-review-reminder.php:185
+#@ wc-review-reminder
+msgid "Replaced with the order id."
+msgstr "Skiftes ud med ordre nummeret."
+
+#: includes/class-wc-advanced-review-reminder.php:181
+#@ wc-review-reminder
+msgid "Replaced with the customer email."
+msgstr "Skiftes ud med kundens e-mail."
+
+#: includes/class-wc-advanced-review-reminder.php:187
+#@ wc-review-reminder
+msgid "Replaced with the date and time of the order."
+msgstr "Skiftes ud med dato og tidspunkt for købet."
+
+#: includes/class-wc-advanced-review-reminder.php:189
+#@ wc-review-reminder
+msgid "Replaced with the date the order was marked completed."
+msgstr "Skiftes ud med datoen ordren blev markeret som gennemført."
+
+#: includes/class-wc-advanced-review-reminder.php:193
+#@ wc-review-reminder
+msgid "Replaced with a list of products purchased but not reviewed."
+msgstr "Skiftes ud med en liste af købte produkter som kunden ikke har anmeldt."
+
+#: includes/class-wc-advanced-review-reminder.php:195
+#@ wc-review-reminder
+msgid "Replaced with the number of days ago the order was made."
+msgstr "Skiftes ud med antal dage siden ordren blev lavet."
+
+#: includes/class-wc-advanced-review-reminder.php:204
+#@ wc-review-reminder
+msgid "Enable this email notification"
+msgstr "Slå denne e-mail notifikation til."
+
+#: includes/class-wc-advanced-review-reminder.php:210
+#@ wc-review-reminder
+msgid "You can choose how many days after a order has been completed before a reminder email is sent."
+msgstr "Du kan vælge hvor mange dage efter en ordre er markeret som gennemført før en påmindelses e-mail sendes afsted."
+
+#: includes/class-wc-advanced-review-reminder.php:215
+#@ wc-review-reminder
+msgid "Email subject"
+msgstr "E-mail emne"
+
+#: includes/class-wc-advanced-review-reminder.php:217
+#@ wc-review-reminder
+msgid "The email subject line."
+msgstr "E-mail emne linie."
+
+#: includes/class-wc-advanced-review-reminder.php:222
+#@ wc-review-reminder
+msgid "Email Content"
+msgstr "E-mail indhold"
+
+#: includes/class-wc-advanced-review-reminder.php:224
+#@ wc-review-reminder
+msgid "This is the email template"
+msgstr "Dette er e-mail skabelonen."
+
+#: includes/class-wc-advanced-review-reminder.php:229
+#@ wc-review-reminder
+msgid "Stop Receiving Emails Text"
+msgstr "Stop e-mails tekst"
+
+#: includes/class-wc-advanced-review-reminder.php:231
+#@ wc-review-reminder
+msgid "This text will be made in to a clickable link you can used with the <code>{stop_emails_link}</code> macro."
+msgstr "Denne tekst bliver lavet til et klikbart link du kan bruge i e-mail skabelonen med <code>{stop_emails_link}</code> makroen."
+
+#: includes/class-wc-advanced-review-reminder.php:238
+#@ wc-review-reminder
+msgid "Email blocklist"
+msgstr "Email blokeret liste"
+
+#: includes/class-wc-advanced-review-reminder.php:240
+#@ wc-review-reminder
+msgid "Comma separated list of emails that have asked not to recieve any more review reminders."
+msgstr "Komma separeret liste over emails der ikke længere ønsker at modtage email om at skrive anmeldelser."
+
+#: includes/update-notifier.php:58
+#@ wc-review-reminder
+msgid "New Updates"
+msgstr "Nye opdateringer"
+
+#: includes/class-wc-advanced-review-reminder.php:183
+#@ wc-review-reminder
+msgid "Replaced with the site title."
+msgstr "Skiftes ud med hjemmesidens titel."
+
+#: includes/class-wc-advanced-review-reminder.php:226
+#@ wc-review-reminder
+msgid ""
+"Hello {customer_name},\\r\n"
+"Thank you for purchasing items from the {site_title} shop!\\r\n"
+"We would love if you could help us and other customers by reviewing the products you recently purchased.  It only takes a minute and it would really help others by giving them an idea of your experience.  Click the link below for each product and review the product under the 'Reviews' tab.\\r\n"
+"{order_list}\\r\n"
+"Much appreciated,\\r\n"
+"{site_title}.\\r\n"
+"{stop_emails_link}"
+msgstr ""
+"Hej {customer_name},\\r\n"
+"Tak fordi du købte fra {site_title}!\\r\n"
+"Det ville være dejligt hvis du kunne hjælpe os med at skrive en anmeldelse af dine indkøb. Det tager kun et minut og det vil både hjælpe os og andre hvis du vil skrive om hvad du syntes. Klik på linket nedenfor og skriv en anmeldelse under 'Anmeldelser'.\\r\n"
+"{order_list}\\r\n"
+"På forhånd tak,\\r\n"
+"{site_title}.\\r\n"
+"{stop_emails_link}"
+
+#: includes/class-wc-advanced-review-reminder.php:233
+#@ wc-review-reminder
+msgid "Unsubscribe from review emails"
+msgstr "Frameld emails om anmeldelser"
+
+#: includes/class-wc-advanced-review-reminder.php:83
+#@ wc-review-reminder
+msgid "WooCommerce Advanced Review Reminder"
+msgstr "WooCommerce Advanced Review Reminder"
+
+#: includes/class-wc-advanced-review-reminder.php:106
+#@ wc-review-reminder
+msgid "Enter a valid email to send a test email."
+msgstr "Udfyld indtastningsfeltet med en email hvis du vil sende en test."
+
+#: includes/class-wc-advanced-review-reminder.php:219
+#@ wc-review-reminder
+msgid "[{site_title}] Review recently purchased products"
+msgstr "[{site_title}] Skriv en anmeldelse af dine indkøb"
+
+#: includes/class-wc-advanced-review-reminder.php:92
+#@ wc-review-reminder
+msgid "Send Test Email"
+msgstr "Send test email"
+
+#: includes/class-wc-advanced-review-reminder.php:100
+#: includes/class-wc-advanced-review-reminder.php:104
+#@ wc-review-reminder
+msgid "Email Recipient"
+msgstr "Email modtager"
+
+#: includes/class-wc-advanced-review-reminder.php:191
+#@ wc-review-reminder
+msgid "Replaced with a link to stop recieving email review reminders."
+msgstr "Skiftes ud med et link til ikke længere at modtage emails om reviews."
+
+#: woocommerce-advanced-review-reminder.php:266
+#@ wc-review-reminder
+msgid "Example Product Review Link #1"
+msgstr "Eksempel produkt review link #1"
+
+#: woocommerce-advanced-review-reminder.php:266
+#@ wc-review-reminder
+msgid "Example Product Review Link #2"
+msgstr "Eksempel produkt review link #2"
+
+#: includes/class-wc-advanced-review-reminder.php:125
+#@ wc-review-reminder
+msgid "Logs"
+msgstr "Log"
+
+#: includes/class-wc-advanced-review-reminder.php:129
+#: includes/class-wc-advanced-review-reminder.php:143
+#@ wc-review-reminder
+msgid "Time"
+msgstr "Tidspunkt"
+
+#: includes/class-wc-advanced-review-reminder.php:130
+#: includes/class-wc-advanced-review-reminder.php:144
+#@ wc-review-reminder
+msgid "Event"
+msgstr "Begivenhed"
+
+#: woocommerce-advanced-review-reminder.php:153
+#, php-format
+#@ wc-review-reminder
+msgid "%s was added to the blocklist"
+msgstr "%s blev tilføjet email blokeret listen."
+
+#: woocommerce-advanced-review-reminder.php:91
+#, php-format
+#@ wc-review-reminder
+msgid "Order %s has changed status. Not completed, no e-mails scheduled."
+msgstr "Ordre %s har ændret status. Ikke færdig endnu, så ingen emails planlagt."
+
+#: woocommerce-advanced-review-reminder.php:121
+#, php-format
+#@ wc-review-reminder
+msgid "Order # %s marked as completed. Scheduled emails to be sent to %s on following dates: %s"
+msgstr "Ordre # %s markeret som gennemført. Der er planlagt email udsendelse til %s de følgende dage: %s"
+
+#: woocommerce-advanced-review-reminder.php:286
+#, php-format
+#@ wc-review-reminder
+msgid "(Order #%s) E-mail sent to %s - Day %s reminder."
+msgstr "(Ordre #%s) email sendt til %s - Dag %s påmindelse."
+

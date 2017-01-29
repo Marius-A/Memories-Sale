@@ -1,0 +1,547 @@
+# Translation of Development (trunk) in French (France)
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-02 12:12+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"Project-Id-Version: Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+
+#: weglot.php:346
+msgid "Malay"
+msgstr "Malais"
+
+#: weglot.php:347
+msgid "Norwegian"
+msgstr "Norvégien"
+
+#: weglot.php:348
+msgid "Basque"
+msgstr "Basque"
+
+#: weglot.php:354
+msgid "Destination Languages"
+msgstr "Languages souhaités"
+
+#: weglot.php:354
+msgid "Write the two-letters codes, separated by a comma. Supported languages are <a target=\"_blank\" href=\"https://weglot.com/translation-api#languages_code\">here</a>."
+msgstr "Inscrivez le code à deux lettres de votre langue, séparé par une virgule. Langues supportées <a target=\"_blank\" href=\"https://weglot.com/fr/translation-api#languages_code\">ici</a>."
+
+#: weglot.php:358
+msgid "Language button appearance"
+msgstr "Apparence du bouton de choix de langue"
+
+#: weglot.php:361
+msgid "Where do you want your language button : (optional)."
+msgstr "Ou souhaitez vous placer le bouton de choix de langue ?"
+
+#: weglot.php:361
+msgid "Select a node using its xpath"
+msgstr "Selectionnez un élement en utilisant le XPath"
+
+#: weglot.php:364
+msgid "Before"
+msgstr "Avant"
+
+#: weglot.php:365
+msgid "After"
+msgstr "Après"
+
+#: weglot.php:366
+msgid "At the beginning of"
+msgstr "Au début du noeud"
+
+#: weglot.php:367
+msgid "At the end of"
+msgstr "A la fin du noeud"
+
+#: weglot.php:369
+msgid "For instance:"
+msgstr "Par exemple :"
+
+#: weglot.php:373
+msgid "With flags?"
+msgstr "Avec les drapeaux ?"
+
+#: weglot.php:373
+msgid "Check if you want flags in the language button."
+msgstr "Cochez si vous souhaitez avoir des drapeaux dans votre bouton de choix de langue"
+
+#: weglot.php:377
+msgid "Override CSS"
+msgstr "Remplacer le CSS"
+
+#: weglot.php:377
+msgid "Don't change it unless you want a specific style for your button."
+msgstr "Ne changez rien sauf si vous voulez un style de bouton spécifique"
+
+#: weglot.php:378
+msgid "Write CSS rules here"
+msgstr "Ecrivez vos règles CSS ici"
+
+#: weglot.php:381
+msgid "Translation Exclusion"
+msgstr "Exclusion de Traduction"
+
+#: weglot.php:382
+msgid "By default, every page is translated. You can exclude parts of a page or a full page here."
+msgstr "Par défaut, toutes les pages sont traduites. Vous pouvez exclure des parties de pages ou des pages entières ici."
+
+#: weglot.php:385
+msgid "Exclude URL here"
+msgstr "Exclure des URL"
+
+#: weglot.php:385
+msgid "You can write regex."
+msgstr "Vous pouvez utiliser des regex (expressions régulières)"
+
+#: weglot.php:394
+msgid "Love Weglot? Give us 5 stars on WordPress.org :)"
+msgstr "Vous aimez Weglot ? Mettez nous 5 étoiles sur WordPress.org :)"
+
+#. Plugin Name of the plugin/theme
+msgid "Weglot"
+msgstr "Weglot"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/Weglot/"
+msgstr "http://wordpress.org/plugins/Weglot/"
+
+#. Description of the plugin/theme
+msgid "Translate your website site into multiple languages in minutes without doing any code. Totally SEO compatible."
+msgstr "Traduisez votre site web dans plusieurs langues en quelques minutes sans aucune ligne de code. Tout ça en étant optimisé en SEO."
+
+#. Author of the plugin/theme
+msgid "Remy B"
+msgstr "Rémy B"
+
+#: weglot.php:342
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: weglot.php:343
+msgid "Polish"
+msgstr "Polonnais"
+
+#: weglot.php:344
+msgid "Finnish"
+msgstr "Finnois"
+
+#: weglot.php:345
+msgid "Greek"
+msgstr "Grec"
+
+#: weglot.php:338
+msgid "Japanese"
+msgstr "Japonais"
+
+#: weglot.php:339
+msgid "Korean"
+msgstr "Coréen"
+
+#: weglot.php:340
+msgid "Turkish"
+msgstr "Turc"
+
+#: weglot.php:341
+msgid "Danish"
+msgstr "Danois"
+
+#: weglot.php:333
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: weglot.php:334
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: weglot.php:335
+msgid "Arabic"
+msgstr "Arabe"
+
+#: weglot.php:336
+msgid "Hebrew"
+msgstr "Hébreu"
+
+#: weglot.php:337
+msgid "Italian"
+msgstr "Italien"
+
+#: weglot.php:330
+msgid "Simplified Chinese"
+msgstr "Chinois simplifié"
+
+#: weglot.php:9876
+msgid "Traditional Chinese"
+msgstr "Chinois traditionnel"
+
+#: weglot.php:331
+msgid "Russian"
+msgstr "Russe"
+
+#: weglot.php:332
+msgid "German"
+msgstr "Allemand"
+
+#: weglot.php:325
+msgid "Original Language"
+msgstr "Language d'origine"
+
+#: weglot.php:325
+msgid "What is the original (current) language of your website?"
+msgstr "Quel est le language d'origine de votre site ?"
+
+#: weglot.php:328
+msgid "French"
+msgstr "Français"
+
+#: weglot.php:329
+msgid "English"
+msgstr "Anglais"
+
+#: weglot.php:312
+msgid "Weglot Integration"
+msgstr "Intégration Weglot"
+
+#: weglot.php:314
+msgid "Login to %s to get your API key"
+msgstr "Connectez vous à %s pour trouver votre clé API"
+
+#: weglot.php:318
+msgid "Main configuration"
+msgstr "Configuration principale"
+
+#: weglot.php:321
+msgid "API Key"
+msgstr "Clé API"
+
+#: weglot.php:400
+msgid "Dropdown?"
+msgstr "Liste déroulante ?"
+
+#: weglot.php:401
+msgid "Check if you want the button to be a dropdown box."
+msgstr "Cochez si vous voulez que le bouton soit une liste déroulante."
+
+#: weglot.php:402
+msgid "Full name?"
+msgstr "Nom entier ?"
+
+#: weglot.php:403
+msgid "Check if you want the name of the languge. Don't check if you want the language code."
+msgstr "Cochez si vous voulez le nom du language. Sinon ce sera le code du language."
+
+#: weglot.php:404
+msgid "Preview"
+msgstr "Aperçu"
+
+#: weglot.php:405
+msgid "After you saved, dont forget to add \"Weglot Translate\" widget to your website by going in \"Appearance\" -> \"Widgets\". Have fun!"
+msgstr "Après avoir sauvegardé, n'oubliez pas d'ajouter le widget \"Weglot Translate\" à votre site en allant dans \"Appearance\" -> \"Widgets\". Have fun!"
+
+#: weglot.php:406
+msgid "Where are my translations?"
+msgstr "Où trouver mes traductions ?"
+
+#: weglot.php:407
+msgid "You can find all your translations in your Weglot account:"
+msgstr "Vous pouvez trouver toutes vos traductions dans votre compte Weglot :"
+
+#: weglot.php:408
+msgid "Edit my translations"
+msgstr "Modifier mes traductions"
+
+#: weglot.php:409
+msgid "https://weglot.com/dashboard"
+msgstr "https://weglot.com/fr/dashboard"
+
+#: weglot.php:410
+msgid "Close"
+msgstr "Fermer"
+
+#: weglot.php:411
+msgid "Well done! Your website is now multilingual"
+msgstr "Bravo ! Votre site web est à présent multilingue"
+
+#: weglot.php:412
+msgid "Go on your website, there is a language switcher, try it :)"
+msgstr "Allez sur votre site, il y a un bouton de langues, essayez :)"
+
+#: weglot.php:413
+msgid "Go on my front page"
+msgstr "Allez sur la page d'accueil"
+
+#: weglot.php:414
+msgid "Next step, edit your translations directly in your Weglot account."
+msgstr "Prochaine étape, modifiez vos traductions directement dans votre compte Weglot."
+
+#: weglot.php:415
+msgid "https://embed.tawk.to/56ae29fefe87529955d63d81/default"
+msgstr "https://embed.tawk.to/56ae29fefe87529955d63d81/1aac5l822"
+
+#: weglot.php:416
+msgid "To reactivate the service, please <a target=\"_blank\" href=\"https://weglot.com/change-plan\">upgrade your plan</a>"
+msgstr "Pour réactiver le service, veuillez <a target=\"_blank\" href=\"https://weglot.com/fr/change-plan\">souscrire une licence</a>"
+
+#: weglot.php:417
+msgid "Weglot Translate service is not active because you reach the end of the trial period."
+msgstr "Weglot Translate n'est pas actif car vous avez êtes arrivé à la fin de la période d'essai gratuite."
+
+#: weglot.php:418
+msgid "On the free plan, you can only chose one language with a maximum of 2000 words. If you want to use more than 1 language and 2000 words, please <a target=\"_blank\" href=\"https://weglot.com/change-plan\">upgrade your plan</a>."
+msgstr "Avec le plan gratuit, vous pouvez choisir une langue et maximum 2000 mots. Si vous souhaitez avoir plusieurs languages ou plus de 2000 mots, veuillez <a target=\"_blank\" href=\"https://weglot.com/fr/change-plan\">souscrire une licence</a>."
+
+#: weglot.php:4189
+msgid "On the Starter plan, you can only chose one language. If you want to use more than 1 language, please <a target=\"_blank\" href=\"https://weglot.com/change-plan\">upgrade your plan</a>."
+msgstr "Avec le plan Starter, vous pouvez choisir une langue. Si vous souhaitez avoir plusieurs languages, veuillez <a target=\"_blank\" href=\"https://weglot.com/fr/change-plan\">souscrire une licence</a>."
+
+#: weglot.php:419
+msgid "Where will be the language button on my website? By default, bottom right."
+msgstr "Où va apparaître le bouton de language ? Par défaut, en bas à droite."
+
+#: weglot.php:420
+msgid "You can place the button in a Widget area. Go in Appearance -> Widget and drag and drop Weglot Translate widget where you want."
+msgstr "Vous pouvez placer le bouton dans une zone de widget. Allez dans Apparence -> Widget et drag & dropez le widget Weglot Translate où vous voulez."
+
+#: weglot.php:421
+msgid "(Optional)"
+msgstr "(Optionnel)"
+
+#: weglot.php:422
+msgid "Customize style for "
+msgstr "Modifier le style pour les "
+
+#: weglot.php:423
+msgid "Left to Right languages"
+msgstr "languages Droite à Gauche"
+
+#: weglot.php:424
+msgid "Right to Left languages"
+msgstr "languages Gauche à Droite"
+
+#: weglot.php:425
+msgid "Write CSS rules to apply for on %s page"
+msgstr "Ecrivez vos règles CSS à appliquer sur les pages de %s"
+
+#: weglot.php:426
+msgid "Weglot Translate plugin requires at least PHP 5.3 and you have PHP %s. Please upgrade your PHP Version (you can contact your host and they will do it for you)."
+msgstr "Weglot Translate nécessite au moins PHP 5.3 et vous avez PHP %s. Veuillez upgrader votre version de PHP (Vous pouvez contacter votre hébergeur, il le fera pour vous)."
+
+#: weglot.php:426
+msgid "Weglot Translate: You need to activate the mod_rewrite module. You have more information here : <a target=\"_blank\" href=\"https://codex.wordpress.org/Using_Permalinks\">Using Permalinks</a>. If you need help, just ask us directly <a target=\"_blank\" href=\"https://tawk.to/remyb\">here</a>"
+msgstr "Weglot Translate : Vous devez activer le module mod_rewrite. Vous avez plus d'information ici : <a target=\"_blank\" href=\"https://codex.wordpress.org/fr:Utilisation_des_permaliens\">Utilisation des permaliens</a>. Si vous avez besoin d'aide, demandez nous directement <a target=\"_blank\" href=\"https://tawk.to/remyb\">ici</a>"
+
+#: weglot.php:427
+msgid "With name?"
+msgstr "Afficher le nom ?"
+
+#: weglot.php:428
+msgid "Check if you want to display the name of languages."
+msgstr "Cochez si vous souhaitez afficher le nom des langues."
+
+#: weglot.php:429
+msgid "In menu?"
+msgstr "Dans le menu ?"
+
+#: weglot.php:431
+msgid "Check if you want to display the button in the naviguation menu."
+msgstr "Cochez si vous voulez faire apparaître le bouton dans menu de navigation."
+
+#: weglot.php:432
+msgid "As a widget?"
+msgstr "Comme Widget ?"
+
+#: weglot.php:433
+msgid "With a shortcode?"
+msgstr "Avec un shortcode ?"
+
+#: weglot.php:434
+msgid "You can use weglot short code [weglot_switcher] wherever you want to place the button."
+msgstr "Vous pouvez utiliser le short code [weglot_switcher] là où vous souhaitez placer le bouton."
+
+#: weglot.php:435
+msgid "In the sourcecode?"
+msgstr "Dans le code source ?"
+
+#: weglot.php:436
+msgid "You can add the code &lt;div id=&quot;weglot_here&quot;&gt;&lt;/div&gt; wherever you want in the source code of your HTML page. The button will appear at this place."
+msgstr "Vous pouvez ajouter le code &lt;div id=&quot;weglot_here&quot;&gt;&lt;/div&gt; là où vous voulez dans le code source de votre page HTML. Le bouton apparaîtra à cet endroit."
+
+#: weglot.php:437
+msgid "Rectangle mat"
+msgstr "Rectangle mat"
+
+#: weglot.php:438
+msgid "Rectangle bright"
+msgstr "Rectangle vif"
+
+#: weglot.php:439
+msgid "Square"
+msgstr "Carré"
+
+#: weglot.php:440
+msgid "Circle"
+msgstr "Cercle"
+
+#: weglot.php:441
+msgid "Type of flags"
+msgstr "Type de drapeaux"
+
+#: weglot.php:441
+msgid "Settings"
+msgstr "Réglages"
+
+#: weglot.php:442
+msgid "If you need any help, you can contact us on our live chat on <a href=\"https://weglot.com/\" target=\"_blank\">weglot.com</a> or email us at contact@weglot.com"
+msgstr "Si vous avez une question, vous pouvez nous contacter directement sur notre live chat sur <a href=\"https://weglot.com/\" target=\"_blank\">weglot.com</a> ou par email sur contact@weglot.com"
+
+#: weglot.php:443
+msgid "Change country flags"
+msgstr "Changez les drapeaux de pays"
+
+#: weglot.php:444
+msgid "Choose english flag:"
+msgstr "Choisir le drapeau anglais"
+
+#: weglot.php:445
+msgid "Choose spanish flag:"
+msgstr "Choisir le drapeau espagnol"
+
+#: weglot.php:446
+msgid "Choose portugese flag:"
+msgstr "Choisir le drapeau portugais"
+
+#: weglot.php:447
+msgid "If you want to change another flag, just ask us."
+msgstr "Si vous souhaitez changer un autre drapeau, demandez nous."
+
+#: weglot.php:448
+msgid "United Kingdom (default)"
+msgstr "Royaume-Uni (défaut)"
+
+#: weglot.php:449
+msgid "United States"
+msgstr "Etats-Unis"
+
+#: weglot.php:450
+msgid "Australia"
+msgstr "Australie"
+
+#: weglot.php:451
+msgid "Spain (default)"
+msgstr "Espagne (défaut)"
+
+#: weglot.php:452
+msgid "Mexico"
+msgstr "Mexique"
+
+#: weglot.php:453
+msgid "Argentina"
+msgstr "Argentine"
+
+#: weglot.php:454
+msgid "Colombia"
+msgstr "Colombie"
+
+#: weglot.php:455
+msgid "Peru"
+msgstr "Pérou"
+
+#: weglot.php:456
+msgid "Bolivia"
+msgstr "Bolivie"
+
+#: weglot.php:457
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: weglot.php:458
+msgid "Brazil (default)"
+msgstr "Brésil (défaut)"
+
+#: weglot.php:459
+msgid "Portugal"
+msgstr "Portugal"
+
+#: weglot.php:460
+msgid "Canada"
+msgstr "Canada"
+
+#: weglot.php:461
+msgid "New Zealand"
+msgstr "Nouvelle-Zélande"
+
+#: weglot.php:462
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+#: weglot.php:463
+msgid "Ireland"
+msgstr "Irlande"
+
+#: weglot.php:464
+msgid "Venezuela"
+msgstr "Vénezuela"
+
+#: weglot.php:465
+msgid "Chile"
+msgstr "Chili"
+
+#: weglot.php:466
+msgid "Ecuador"
+msgstr "Equateur"
+
+#: weglot.php:467
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: weglot.php:468
+msgid "Cuba"
+msgstr "Cuba"
+
+#: weglot.php:469
+msgid "Dominican Republic"
+msgstr "République Dominicaine"
+
+#: weglot.php:470
+msgid "Honduras"
+msgstr "Honduras"
+
+#: weglot.php:471
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: weglot.php:472
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: weglot.php:473
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: weglot.php:474
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: weglot.php:475
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#: weglot.php:476
+msgid "Panama"
+msgstr "Panama"
+
+#: weglot.php:477
+msgid "Exclude blocks"
+msgstr "Exclure des blocs"
+
+#: weglot.php:478
+msgid "Enter CSS selectors, separated by commas"
+msgstr "Entrez des selecteurs CSS, séparés par des virgules"

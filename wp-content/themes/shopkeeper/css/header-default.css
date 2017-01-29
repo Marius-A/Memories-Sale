@@ -1,0 +1,20 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+	Default Header
+	
+[/Table of contents]
+-------------------------------------------------------------------*/
+
+.site-branding {
+	display: inline-block;
+	float: left;
+}
+
+@media only screen and (min-width: 63.9375em) {
+	
+	.site-branding {
+		margin-right:25px;
+	}
+
+}

@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Review Reminder v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-07-04 08:51:57+0000\n"
+"Last-Translator: larskoudal <lars@koudal.dk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-wc-advanced-review-gatherer.php:19
+#@ wc-review-reminder
+msgid "We would love your feedback"
+msgstr "Nos encantaría llegar tus comentarios"
+
+#: includes/class-wc-advanced-review-gatherer.php:20
+#@ wc-review-reminder
+msgid "Please help us by reviewing"
+msgstr "Por favor ayúdenos a revisar"
+
+#: includes/class-wc-advanced-review-gatherer.php:179
+#@ wc-review-reminder
+msgid "Replaced with the customers name."
+msgstr "Reemplazado con el nombre de los clientes."
+
+#: includes/class-wc-advanced-review-gatherer.php:185
+#@ wc-review-reminder
+msgid "Replaced with the order id."
+msgstr "Se reemplaza con la identificación de la orden."
+
+#: includes/class-wc-advanced-review-gatherer.php:181
+#@ wc-review-reminder
+msgid "Replaced with the customer email."
+msgstr "Se reemplaza con el correo electrónico del cliente."
+
+#: includes/class-wc-advanced-review-gatherer.php:187
+#@ wc-review-reminder
+msgid "Replaced with the date and time of the order."
+msgstr "Reemplazado con la fecha y hora de la orden."
+
+#: includes/class-wc-advanced-review-gatherer.php:189
+#@ wc-review-reminder
+msgid "Replaced with the date the order was marked completed."
+msgstr "Se reemplaza con la fecha que la orden fue marcado completado."
+
+#: includes/class-wc-advanced-review-gatherer.php:193
+#@ wc-review-reminder
+msgid "Replaced with a list of products purchased but not reviewed."
+msgstr "Se reemplaza con una lista de los productos comprados pero no revisados."
+
+#: includes/class-wc-advanced-review-gatherer.php:195
+#@ wc-review-reminder
+msgid "Replaced with the number of days ago the order was made."
+msgstr "Se sustituye por el número de días atrás el pedido se hizo."
+
+#: includes/class-wc-advanced-review-gatherer.php:202
+#@ wc-review-reminder
+msgid "Enable/Disable"
+msgstr "Activar / Desactivar"
+
+#: includes/class-wc-advanced-review-gatherer.php:204
+#@ wc-review-reminder
+msgid "Enable this email notification"
+msgstr "Habilite esta notificación por correo electrónico"
+
+#: includes/class-wc-advanced-review-gatherer.php:208
+#@ wc-review-reminder
+msgid "Day(s) after order"
+msgstr "Día (s) después de la orden"
+
+#: includes/class-wc-advanced-review-gatherer.php:210
+#@ wc-review-reminder
+msgid "You can choose how many days after a order has been completed before a reminder email is sent."
+msgstr "Usted puede elegir el número de días después de que un pedido ha sido completado antes de que un recordatorio por correo electrónico se envía."
+
+#: includes/class-wc-advanced-review-gatherer.php:215
+#@ wc-review-reminder
+msgid "Email subject"
+msgstr "Asunto del correo electrónico"
+
+#: includes/class-wc-advanced-review-gatherer.php:217
+#@ wc-review-reminder
+msgid "The email subject line."
+msgstr "La línea de asunto de correo electrónico."
+
+#: includes/class-wc-advanced-review-gatherer.php:222
+#@ wc-review-reminder
+msgid "Email Content"
+msgstr "Contenido de Correo"
+
+#: includes/class-wc-advanced-review-gatherer.php:224
+#@ wc-review-reminder
+msgid "This is the email template"
+msgstr "Esta es la plantilla de correo electrónico"
+
+#: includes/class-wc-advanced-review-gatherer.php:229
+#@ wc-review-reminder
+msgid "Stop Receiving Emails Text"
+msgstr "Dejar de recibir mensajes de correo electrónico de texto"
+
+#: includes/class-wc-advanced-review-gatherer.php:231
+#@ wc-review-reminder
+msgid "This text will be made in to a clickable link you can used with the <code>{stop_emails_link}</code> macro."
+msgstr "Este texto se hará en un enlace activo que puede utilizarse con el <code> {stop_emails_link} </ code> macro."
+
+#: includes/class-wc-advanced-review-gatherer.php:238
+#@ wc-review-reminder
+msgid "Email blocklist"
+msgstr "Email blocklist"
+
+#: includes/class-wc-advanced-review-gatherer.php:240
+#@ wc-review-reminder
+msgid "Comma separated list of emails that have asked not to recieve any more review reminders."
+msgstr "Comma lista de correos electrónicos que han pedido no recibir ninguna más recordatorios de revisión separada."
+
+#: includes/update-notifier.php:58
+#@ wc-review-reminder
+msgid "New Updates"
+msgstr "Nuevas actualizaciones"
+
+#: includes/class-wc-advanced-review-gatherer.php:183
+#@ wc-review-reminder
+msgid "Replaced with the site title."
+msgstr "Se reemplaza con el título del sitio."
+
+#: includes/class-wc-advanced-review-gatherer.php:226
+#@ wc-review-reminder
+msgid ""
+"Hello {customer_name},\\r\n"
+"Thank you for purchasing items from the {site_title} shop!\\r\n"
+"We would love if you could help us and other customers by reviewing the products you recently purchased.  It only takes a minute and it would really help others by giving them an idea of your experience.  Click the link below for each product and review the product under the 'Reviews' tab.\\r\n"
+"{order_list}\\r\n"
+"Much appreciated,\\r\n"
+"{site_title}.\\r\n"
+"{stop_emails_link}"
+msgstr ""
+
+#: includes/class-wc-advanced-review-gatherer.php:233
+#@ wc-review-reminder
+msgid "Unsubscribe from review emails"
+msgstr "Darse de baja de los correos electrónicos revisión"
+
+#: includes/class-wc-advanced-review-gatherer.php:83
+#@ wc-review-reminder
+msgid "WooCommerce Advanced Review Reminder"
+msgstr "WooCommerce Advanced Review Reminder"
+
+#: includes/class-wc-advanced-review-gatherer.php:106
+#@ wc-review-reminder
+msgid "Enter a valid email to send a test email."
+msgstr "Introduzca una dirección de correo electrónico válida para enviar un mensaje de prueba."
+
+#: includes/class-wc-advanced-review-gatherer.php:219
+#@ wc-review-reminder
+msgid "[{site_title}] Review recently purchased products"
+msgstr "[{site_title}] Revisión recientemente adquirido productos"
+
+#: includes/class-wc-advanced-review-gatherer.php:92
+#@ wc-review-reminder
+msgid "Send Test Email"
+msgstr "Enviar correo electrónico de prueba"
+
+#: includes/class-wc-advanced-review-gatherer.php:100
+#: includes/class-wc-advanced-review-gatherer.php:104
+#@ wc-review-reminder
+msgid "Email Recipient"
+msgstr "Email destinatario"
+
+#: includes/class-wc-advanced-review-gatherer.php:191
+#@ wc-review-reminder
+msgid "Replaced with a link to stop recieving email review reminders."
+msgstr "Reemplazado con un enlace a dejar de recibir correo electrónico de revisión recordatorios."
+
+#: woocommerce-advanced-review-reminder.php:289
+#@ wc-review-reminder
+msgid "Example Product Review Link #1"
+msgstr "Ejemplo de revisión de producto el enlace #1"
+
+#: woocommerce-advanced-review-reminder.php:289
+#@ wc-review-reminder
+msgid "Example Product Review Link #2"
+msgstr "Ejemplo de revisión de producto el enlace #2"
+
+#: includes/class-wc-advanced-review-gatherer.php:125
+#@ wc-review-reminder
+msgid "Logs"
+msgstr ""
+
+#: includes/class-wc-advanced-review-gatherer.php:129
+#: includes/class-wc-advanced-review-gatherer.php:143
+#@ wc-review-reminder
+msgid "Time"
+msgstr ""
+
+#: includes/class-wc-advanced-review-gatherer.php:130
+#: includes/class-wc-advanced-review-gatherer.php:144
+#@ wc-review-reminder
+msgid "Event"
+msgstr ""
+
+#: woocommerce-advanced-review-reminder.php:90
+#, php-format
+#@ wc-review-reminder
+msgid "Order %s no longer marked as completed. Scheduled e-mails cancelled."
+msgstr ""
+
+#: woocommerce-advanced-review-reminder.php:121
+#, php-format
+#@ wc-review-reminder
+msgid "Scheduled emails to be sent to %s for order %s on following dates: %s"
+msgstr ""
+
+#: woocommerce-advanced-review-reminder.php:169
+#, php-format
+#@ wc-review-reminder
+msgid "%s was added to the blocklist"
+msgstr ""
+
+#: woocommerce-advanced-review-reminder.php:309
+#, php-format
+#@ wc-review-reminder
+msgid "E-mail sent to %s - Day %s reminder."
+msgstr ""
+

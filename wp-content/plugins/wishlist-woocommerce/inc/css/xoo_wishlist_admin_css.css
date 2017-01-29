@@ -1,0 +1,11 @@
+.wishlist-icon {
+	margin: 3px;
+}
+.xoo_wishlist_position_message,.xoo-wishlist-pages-info{
+    display: inline-block;
+    padding-left: 15px;
+}
+.xoo-pages-info{
+	padding: 5px;
+	display: none;
+}

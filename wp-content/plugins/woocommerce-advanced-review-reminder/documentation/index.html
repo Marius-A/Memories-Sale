@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>WooCommerce Advanced Review Reminder Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;WooCommerce Advanced Review Reminder&rdquo; Documentation by &ldquo;Kodemann.com&rdquo; v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;WooCommerce Advanced Review Reminder&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+						Created: 05/07/2014<br>
+						By: Kodemann.com<br>
+						Email: <a href="mailto:info@kodemann.com">info@kodemann.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via the user page contact form <a href="http://codecanyon.net/user/kodemann">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+
+		<h3>Instructional Video</h3>
+		<center>
+		<iframe width="640" height="360" src="//www.youtube.com/embed/hlXrOML5zCE?rel=0" frameborder="0" allowfullscreen></iframe></center>
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#Description">Description</a></li>
+			<li><a href="#Quick">Quick Start</a></li>
+			<li><a href="#htmlStructure">Installation</a></li>
+			<li><a href="#cssFiles">Configuration</a></li>
+			<li><a href="#javascript">Review Email</a></li>
+			<li><a href="#debug">How it works/debugging</a></li>
+			<li><a href="#manual">Manual Emails</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="Description"><strong>A) Description</strong> - <a href="#toc">top</a></h3>
+
+		<p>WooCommerce Advanced Review Reminder helps you get customer reviews to your webshop from customers who recently purchased a product from your shop.  Reminder emails are sent to your customers asking them to review the recent product(s) they purchased.</p>
+		<p><em><strong>shared on wplocker.com</strong></em></p>
+	  <p>Here are the major features you receive with Woocommerce Advanced Review Reminder plugin:</p>
+		<ol>
+			<li>Send a friendly email reminder automatically after they purchase and ask for a review.</li>
+			<li>You can configure as many reminder emails as you want and set them to be sent X number of days after the purchase date.</li>
+			<li>Personalized each email by using the predefined email macros.</li>
+			<li>Customers can unsubscribe from the email review reminders so they do not get emailed again.</li>
+			<li>The sent email use WooCommerce’s email templates to keep a consistent look and feel to your emails.</li>
+		</ol>
+
+		<hr>
+
+		<h3 id="Quick"><strong>B) Quick Start</strong> - <a href="#toc">top</a></h3>
+		
+		<ol>
+			<li>Install and activate the plugin, see <a href="#htmlStructure">Installation</a>.</li>
+			<li>There is nothing else you need to do for the reminder review emails to be sent out, by default two reminder emails are sent 1 and 2 weeks after purchase.</li>
+			<li>If you would like to modify when and how many emails are sent as well as the email text, see <a href="#cssFiles">Configuration</a>.</li>
+		</ol>
+		
+		<p></p>
+		
+		<hr>
+
+		<h3 id="htmlStructure"><strong>C) Installation</strong> - <a href="#toc">top</a></h3>
+		
+		<ol>
+			<li>Upload the "woocommerce-advanced-review-reminder" folder to the /wp-content/plugins/ directory</li>
+			<li>Activate the "WooCommerce Advanced Review Reminder" plugin through the 'Plugins' menu in WordPress</li>
+			<li>Configure the plugin by going to the "WooCommerce->Settings" menu, in the "Emails" tab under the "Advanced Review Reminder" section</li>
+		</ol>
+		
+		<img src="assets/images/wcarr-settings-preview.png" alt="settings page" width="800"/>
+		<p></p>
+		<hr>
+		
+		<h3 id="cssFiles"><strong>D) Configuration</strong> - <a href="#toc">top</a></h3>
+
+		<p>This help section will walk you through each plugin settings option.</p> 
+
+		<ol>
+			<li><strong>Enable/Disable</strong> - Enabling the advanced review reminder will schedule emails to be sent to your clients once the order status is marked 'Completed'.  Disabling the plugin will ensure no emails are sent to your clients.</li>
+			<li><strong>Day(s) after order</strong> - Enter number values representing the days after which the email will be sent.  You can enter as many values as you want seperated by commas and for each value an email will be sent X amount of days after the order was marked 'Completed'.<br/><i><u>NOTE:</u> Once a customer completes a review for a given product they will no longer be emailed to review that specific product, but will continue to receive emails for other products within the same order!</i></li>
+			<li><strong>Email subject</strong> - The subject line your customer will receive for the review reminder email.</li>
+			<li><strong>Email content</strong> - The content of the review reminder email.  Within the email subject and content you can use the following macros that can personalize the email to each of your customers: 
+				<ol>
+					<li>{customer_name}	- Replaced with the customers full name.</li>
+					<li>{customer_firstname}	- Replaced with the customers first name.</li>
+					<li>{customer_lastname}	- Replaced with the customers last name.</li>
+					<li>{order_id}	- Replaced with the order id.</li>
+					<li>{customer_email} - Replaced with the customer email.</li>
+					<li>{site_title} - Replaced the the title of the site.</li>
+					<li>{order_date} - Replaced with the date and time of the order.</li>
+					<li>{order_date_completed}	- Replaced with the date the order was marked completed.</li>
+					<li>{stop_emails_link} - Replaced with a link to stop recieving email review reminders.</li>
+					<li>{order_list} - Replaced with a list of products purchased but not reviewed.</li>
+					<li>{days_ago} - Replaced with the number of days ago the order was made.</li>
+				</ol>
+			</li>
+			<li><strong>Stop Receiving Emails Text</strong> - This is the anchor text within the email review unsubscribe link. If a customer clicks the email review unsubscribe link, they will be placed in the "Email blocklist".</li>
+			<li><strong>Email blocklist</strong> -  This is an email blocklist i.e. the customers in this comma seperated list will not be emailed.  You can also manually add or remove anyone from this list.</li>
+			<li><strong>Send Test email</strong> -  Enter a valid email in the "Email Recipient" field and click "Save changes" to send the test email.</li>
+		</ol>
+		
+		<img src="assets/images/wcarr-settings-page.png" alt="settings page" width="800"/>
+		
+		<p>Click the "Save changes" button at the end of the page once any setting is modified.</p>
+
+		<hr>
+		
+
+
+
+		<h3 id="javascript"><strong>E) Review Email</strong> - <a href="#toc">top</a></h3>
+		
+		<p>The review reminder email utilizes the configured WooCommerce email template by default.  See example below:</p>
+		
+		<img src="assets/images/wcarr-email-preview.jpg" alt="email example"/>
+		
+		<hr>
+		
+		<h3 id="debug"><strong>F) How the plugin works / debugging</strong> - <a href="#toc">top</a></h3>
+
+
+		<p>The plugin works by monitoring when an order has been marked as "complete". This is the trigger that assumes a product has been sent. For virtual products this happens immediately as there is no shipping involved.</p>
+
+		<p>The plugin creates individual non-repeatable WordPress cronjobs. The date and time the emails are sent are defined from the plugin settings. </p>
+
+		<p>In version 1.2 we created a debug log on the bottom of the plugin admin page to monitor the plugin activity. Here are the possible log entries:</p>
+		<p><strong>NOTE: If you are upgrading the plugin version you MUST disable and then enable the plugin to create the necessary logging database tables first in order to view the logs.</strong></p>
+		<ol>
+			<li><strong>Order x marked as completed. Scheduled emails to be sent to (email) on following dates: (send dates)</strong> - This will be logged if an order status is changed to "Completed" from another status, and will schedule emails to be sent to the customer.</li>
+			<li><strong>(Order x) E-mail sent to (email) - Day (days after order) reminder.</strong> - This will be logged once an email is sent to a customer for an order and the days after the order was marked "Competed".</li>
+			<li><strong>Order x has changed status. Not completed, no e-mails scheduled.</strong> - This will be logged if an order status is changed from "Completed" to another status, so no emails will be sent to the customer.</li>
+			<li><strong>(email) was added to the blocklist.</strong> - This will be logged if a customer asked to unsubscribe from the review reminder emails.</li>
+		</ol>
+		<img src="assets/images/reminder_logs.png" alt="log example" width="800"/>
+		
+		<p>To further debug and verify emails are scheduled and sent we recommend the following plugins:</p>
+
+		<ul>
+			<li>Email Log - <a href="http://wordpress.org/plugins/email-log/">http://wordpress.org/plugins/email-log/</a> - Monitor ALL outgoing emails from your WordPress site.</li>
+			<li>WP Crontrol - <a href="http://wordpress.org/plugins/wp-crontrol/">http://wordpress.org/plugins/wp-crontrol/</a> - See all scheduled cron jobs</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="manual"><strong>G) Manual Emails</strong> - <a href="#toc">top</a></h3>
+		<p>Under <strong>WooCommerce -> Orders</strong>, select an order and in the bottom right corner you will find a metabox called "Email Review Request".  If you click the button within the metabox an email will be sent requesting a review for the given order.<br/><u>Note</u>: Any scheduled emails will still be sent.<br/></p>
+		<img src="assets/images/manual_review.png" alt="manual email" width="800"/>
+
+
+		<p>Once again, thank you so much for purchasing this plugin. Please leave us a comment on the plugin page and don't forget to review the plugin!</p> 
+		
+		<p class="append-bottom alt large"><strong>Kodemann</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

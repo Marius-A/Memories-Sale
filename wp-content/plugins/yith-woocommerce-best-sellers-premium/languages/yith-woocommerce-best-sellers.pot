@@ -1,0 +1,423 @@
+# Copyright (C) 2015 YIThemes
+# This file is distributed under the same license as the YITH Plugin Starter package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Best Sellers\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2015-09-09 15:46+0200\n"
+"PO-Revision-Date: 2015-06-19 17:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcbsl-admin-premium.php:63
+msgid "Display Options"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:70
+msgid "Show Position in Product Page"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:72
+msgid "Select to show position of products in single product page."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:77
+msgid "Show Category Top 100 link in Product Page"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:79
+msgid "Select to show the link to category Top 100 in single product pages."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:84
+msgid "Show Category Top 100 link in Category Pages"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:86
+msgid "Select to show the link to category Top 100 in category pages."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:91
+msgid "Show ranking indicator"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:93
+msgid "Select to show ranking indicator in Best Sellers Pages."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:98
+msgid "Show rss link"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:100
+msgid "Select to show RSS link in Best Sellers Pages."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:108
+msgid "Advanced Options"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:114
+msgid "Bestseller Update Time"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:116
+msgid "Select update time for Best Sellers Reporting"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:119
+msgid "1 Day"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:120
+msgid "7 Days"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:121
+msgid "Solar Month"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:122
+msgid "Solar Year"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:123
+msgid "Unlimited"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:128
+msgid "Badge text"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:130
+msgid "Select the text for \"Best Seller\" Badges"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:132 templates/bestseller-badge.php:14
+#: templates/premium/bestseller-badge.php:15
+msgctxt "Text of \"Bestseller\" Badge"
+msgid "Best Seller"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:135
+msgid "Slider Title"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:137
+msgid "Enter the text you want to display as title of Best Sellers Slider"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:139 templates/premium/slider/bestsellers.php:19
+msgctxt "Text of \"Bestsellers\" Slider"
+msgid "Best Sellers"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:146
+msgid "Colors"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:152
+msgid "Badge background color"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:154
+msgid "Select background color for \"Best Seller\" Badges"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:159
+msgid "Badge text color"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:161
+msgid "Select color for the text of \"Best Seller\" Badges"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:166
+msgid "Links background color"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:168
+msgid "Select background color for \"Top 100\" links"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:173
+msgid "Links text color"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:175
+msgid "Select color for the text of \"Top 100\" links"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:184 class.yith-wcbsl-admin-premium.php:198
+msgid "Best Seller Seal"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:191
+msgid "Show Seal in Best Sellers"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:193
+msgid "Select to show seal for Best Sellers in their single product page."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:200
+msgid "Upload your custom Best Seller Seal"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:204
+msgid "Position"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:206
+msgid "Select the position you want to apply to Best Seller Seals."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:209
+msgid "Before summary"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:210
+msgid "Before description"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:211
+msgid "Below description"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:212
+msgid "Below \"Add to Cart\" Button"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:213
+msgid "Below summary"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:218
+msgid "Align"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:220
+msgid "Select alignment you want to apply to Best Seller Seals."
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:223
+msgid "Left"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:224
+msgid "Center"
+msgstr ""
+
+#: class.yith-wcbsl-admin-premium.php:225
+msgid "Right"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:124
+msgid "Settings"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:126
+msgid "Premium Version"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:150
+msgid "Plugin Documentation"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:172
+msgctxt "tab name in \"YIT Plugins\" menu"
+msgid "Settings"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:181
+msgctxt "plugin name in admin page title"
+msgid "Best Sellers"
+msgstr ""
+
+#: class.yith-wcbsl-admin.php:182
+msgctxt "plugin name in admin WP menu"
+msgid "Best Sellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:45
+msgid "A list or dropdown of Best Seller categories."
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:47
+msgid "YITH WooCommerce Best Seller Categories"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:51
+msgid "Best Seller Categories"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:52
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:36
+#: includes/class.yith-wcbsl-bestsellers-widget.php:36
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:57
+msgid "Order by"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:59
+msgid "Category Order"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:60
+msgid "Name"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:66
+msgid "Show hierarchy"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:71
+msgid "Show only in Best Sellers Page"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:76
+msgid "Categories"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:77
+msgid ""
+"Select Product Categories you want to display. Leave it empty for displaying all."
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-categories-widget.php:218
+msgid "No product categories exist."
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:28
+msgid "Display best-seller products."
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:30
+#: includes/class.yith-wcbsl-bestsellers-widget.php:30
+msgid "YITH WooCommerce Best Sellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:35
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:41
+#: includes/class.yith-wcbsl-bestsellers-widget.php:35
+#: templates/premium/bestsellers-feed.php:54
+msgid "Best Sellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:42
+msgid "Newest Best Sellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:45
+msgctxt "type of widget"
+msgid "Type"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:53
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:58
+#: includes/class.yith-wcbsl-bestsellers-widget.php:41
+msgid "Show thumbnails for best-seller products"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget-premium.php:124
+msgid "show Newest Top 100"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:28
+msgid "Display first 3 best-seller products."
+msgstr ""
+
+#: includes/class.yith-wcbsl-install.php:70
+msgctxt "page_slug"
+msgid "bestsellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-install.php:71
+msgid "Bestsellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-walker-category.php:146
+#, php-format
+msgid "Feed for all posts filed in %s"
+msgstr ""
+
+#: init.php:48
+msgid ""
+"YITH WooCommerce Best Sellers Premium is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/settings-options.php:12
+msgid "General Options"
+msgstr ""
+
+#: plugin-options/settings-options.php:20
+msgid "Show \"Best Seller\" badge"
+msgstr ""
+
+#: plugin-options/settings-options.php:22
+msgid "Select to show \"Best Seller\" badge on best-seller products."
+msgstr ""
+
+#: templates/premium/bestseller.php:44 templates/premium/bestsellers-feed.php:87
+#, php-format
+msgid "%1$s %2$s sale"
+msgid_plural "%1$s %2$s sales"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/premium/bestsellers-feed.php:60 templates/premium/bestsellers.php:83
+#, php-format
+msgid "Best Sellers in category %s"
+msgstr ""
+
+#: templates/premium/bestsellers-feed.php:94
+msgid "show "
+msgstr ""
+
+#: templates/premium/bestsellers.php:80
+msgid "Newest Products in Top 100"
+msgstr ""
+
+#: templates/premium/bestsellers.php:126
+msgid "No Best Sellers found"
+msgstr ""
+
+#: templates/premium/single-product/link-bestseller-category.php:14
+#, php-format
+msgid "show %s Top 100"
+msgstr ""
+
+#: templates/premium/single-product/position-in-bestsellers.php:16
+msgid "Best Seller position"
+msgstr ""
+
+#: templates/premium/single-product/position-in-bestsellers.php:21
+msgid "show Top 100"
+msgstr ""
+
+#: templates/premium/single-product/position-in-bestsellers.php:23
+#: templates/premium/single-product/position-in-bestsellers.php:28
+#, php-format
+msgid "No. %1$s in %2$s"
+msgstr ""

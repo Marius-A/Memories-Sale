@@ -1,0 +1,263 @@
+/**
+ * Frontend style
+ *
+ * @author Leanza Francesco
+ * @version 1.0.0
+ */
+
+/*
+    Best Sellers Page
+*/
+
+div.yith-wcbsl-bestseller-container {
+    box-shadow    : 0px 0px 7px 0px #DDD;
+    border-radius : 3px;
+    overflow      : hidden;
+}
+
+div.yith-wcbsl-bestseller-wrapper {
+    position       : relative;
+    width          : 22%;
+    min-width      : 100px;
+    border         : 1px solid #ddd;
+    background     : #ffffff;
+    margin         : 1%;
+    margin-bottom  : 10px;
+    display        : inline-block;
+    vertical-align : top;
+}
+
+span.yith-wcbsl-bestseller-position {
+    font-family   : "Open Sans", Helvetica, sans-serif;
+    position      : absolute;
+    display       : block;
+    top           : -12px;
+    left          : -12px;
+    width         : 30px;
+    height        : 30px;
+    font-size     : 16px;
+    line-height   : 30px;
+    border-radius : 50%;
+    background    : #C5C5C5;
+    color         : #4A4A4A;
+    z-index       : 10;
+    font-weight   : 600;
+    text-align    : center;
+    box-sizing    : border-box;
+}
+
+div.yith-wcbsl-bestseller-thumb-wrapper {
+    position : relative;
+}
+
+div.yith-wcbsl-bestseller-thumb-wrapper::before {
+    content    : ' ';
+    top        : 0;
+    left       : 0;
+    position   : absolute;
+    width      : 100%;
+    background : transparent;
+    height     : 100%;
+    z-index    : 10;
+    box-shadow : 0px -3px 7px -5px #777 inset;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price {
+    display          : block;
+    background-color : #f1f1f1;
+    text-align       : center;
+    line-height      : 100%;
+    color            : #666666;
+    font-weight      : 800;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price > span.amount {
+    padding : 10px 0;
+    display : block;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price del {
+    background  : transparent;
+    color       : #666666;
+    font-size   : 70%;
+    font-weight : 400;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price ins {
+    background : transparent;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price del > span.amount {
+    padding : 5px 0 0 0;
+    display : block;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper span.price ins > span.amount {
+    padding : 0 0 10px 0;
+    display : inline-block;
+}
+
+div.yith-wcbsl-bestseller-content-wrapper h3 {
+    font-size      : 14px;
+    margin         : 10px 5px;
+    text-align     : center;
+    text-transform : uppercase;
+}
+
+/*
+    Best sellers Pagination
+*/
+.yith-wcbsl-pagination{
+    text-align: center;
+}
+
+.yith-wcbsl-pagination ul{
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0;
+    border: 1px solid #d3ced2;
+    border-right: 0;
+    box-shadow: 1px 1px 4px 0px #ddd;
+}
+
+.yith-wcbsl-pagination ul li{
+    border-right: 1px solid #d3ced2;
+    background: #ffffff;
+    padding: 3px 10px;
+    margin: 0;
+    float: left;
+    display: inline;
+    overflow: hidden;
+}
+
+.yith-wcbsl-pagination ul li .current{
+    font-weight: 800;
+}
+
+.yith-wcbsl-pagination ul li a {
+    color: #333;
+    text-decoration: none;
+    border: 0 none;
+}
+
+.yith-wcbsl-pagination ul li a:hover {
+    text-decoration: none;
+}
+
+
+/*
+    Best Sellers Widget
+*/
+ul.yith_wcbsl_bestsellers_list_widget {
+    list-style : none;
+}
+
+ul.yith_wcbsl_bestsellers_list_widget li {
+    padding       : 0;
+    margin-bottom : 7px;
+    border        : 1px solid #ddd;
+    box-sizing    : border-box;
+    box-shadow    : 1px 1px 3px 0 #ddd;
+    overflow      : hidden;
+    font-family   : "Open Sans", Helvetica, sans-serif;
+}
+
+.yith-wcbsl-widget-position {
+    height      : 40px;
+    width       : 40px;
+    float       : left;
+    background  : #656565;
+    color       : #ffffff;
+    font-weight : 800;
+    font-size   : 20px;
+    text-align  : center;
+    line-height : 40px;
+}
+
+.yith-wcbsl-widget-image {
+    height              : 40px;
+    width               : 40px;
+    float               : left;
+    overflow            : hidden;
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : cover;
+}
+
+.yith-wcbsl-widget-title {
+    background-color : #FFF;
+    height           : 40px;
+    float            : left;
+    width            : calc(100% - 80px);
+    font-size        : 14px;
+    text-align       : left;
+    text-transform   : uppercase;
+    padding-left     : 10px;
+    line-height      : 40px;
+}
+
+.yith-wcbsl-widget-title a {
+    font-weight     : 800;
+    color           : #222222;
+    text-decoration : none;
+}
+
+.yith-wcbsl-widget-title a:hover {
+    text-decoration : none;
+}
+
+/*
+    Bestsellers Badge
+*/
+
+.yith-wcbsl-badge-wrapper {
+    position : absolute;
+    top      : 0;
+    left     : 0;
+    width    : 120px;
+    height   : 120px;
+    overflow : hidden;
+}
+
+.yith-wcbsl-badge-content {
+    font-family       : "Open Sans", Helvetica, sans-serif;
+    font-size         : 16px;
+    height            : 40px;
+    width             : 200px;
+    background        : #a00000;
+    color             : #fff;
+    -webkit-transform : rotate(-45deg);
+    -ms-transform     : rotate(-45deg);
+    transform         : rotate(-45deg);
+    text-align        : center;
+    line-height       : 40px;
+    position          : absolute;
+    top               : 20px;
+    left              : -60px;
+    box-shadow        : 0px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    font-weight       : 800;
+}
+
+.yith-wcbsl-badge-wrapper.yith-wcbsl-mini-badge {
+    width  : 80px;
+    height : 80px;
+}
+
+.yith-wcbsl-badge-wrapper.yith-wcbsl-mini-badge .yith-wcbsl-badge-content {
+    font-size   : 12px;
+    height      : 30px;
+    width       : 130px;
+    line-height : 30px;
+    top         : 13px;
+    left        : -36px;
+}
+
+/*  ----------------------------------------------
+                     RESPONSIVE
+    ---------------------------------------------- */
+
+@media only screen and (max-width : 768px) {
+    div.yith-wcbsl-bestseller-wrapper {
+        width : 47%;
+    }
+}

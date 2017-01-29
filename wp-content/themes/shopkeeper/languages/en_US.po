@@ -1,0 +1,914 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopkeeper v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-23 10:55+0200\n"
+"PO-Revision-Date: 2016-02-23 10:56+0200\n"
+"Last-Translator: Get Bowtied <hq@getbowtied.com>\n"
+"Language-Team: Get Bowtied <hq@getbowtied.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../woocommerce\n"
+"X-Poedit-SearchPathExcluded-1: ../settings\n"
+"X-Poedit-SearchPathExcluded-2: ../inc/tgm\n"
+"X-Poedit-SearchPathExcluded-3: ../inc/custom-menu\n"
+"X-Poedit-SearchPathExcluded-4: ../_foundation\n"
+
+#: ../404.php:14
+msgid "Oops 404 again! That page can't be found."
+msgstr ""
+
+# @ shopkeeper
+#: ../404.php:18
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../archive.php:19
+msgid "Category Archives"
+msgstr ""
+
+#: ../archive.php:25
+msgid "Tag Archives"
+msgstr ""
+
+#: ../archive.php:33
+msgid "Author"
+msgstr ""
+
+#: ../archive.php:40
+msgid "Day Archives"
+msgstr ""
+
+#: ../archive.php:46
+msgid "Month Archives"
+msgstr ""
+
+#: ../archive.php:52
+msgid "Year Archives"
+msgstr ""
+
+# @ shopkeeper
+#: ../archive.php:57 ../sidebar.php:13
+msgid "Archives"
+msgstr ""
+
+# @ shopkeeper
+#: ../archive.php:114 ../archive.php:118 ../archive.php:121 ../index.php:123
+#: ../index.php:127 ../index.php:130
+msgid "Continue Reading"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/parsers.php:42
+#: ../backend/functions/wordpress-importer/parsers.php:72
+#: ../backend/functions/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/parsers.php:84
+#: ../backend/functions/wordpress-importer/parsers.php:89
+#: ../backend/functions/wordpress-importer/parsers.php:279
+#: ../backend/functions/wordpress-importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:134
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:143
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:194
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:198
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:511
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../backend/functions/wordpress-importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../backend/index.php:85 ../backend/index.php:86
+#: ../backend/pages/global/pages-header.php:24
+#: ../backend/pages/registration.php:36 ../backend/pages/registration.php:98
+msgid "Product Activation"
+msgstr ""
+
+#: ../backend/index.php:96 ../backend/index.php:97
+#: ../backend/pages/global/pages-header.php:25
+msgid "Plugins"
+msgstr ""
+
+#: ../backend/index.php:107 ../backend/index.php:108
+#: ../backend/pages/global/pages-header.php:26
+msgid "Demo"
+msgstr ""
+
+#: ../backend/index.php:118 ../backend/index.php:119
+msgid "Help Center"
+msgstr ""
+
+#: ../backend/index.php:129 ../backend/index.php:130
+msgid "Get Bowtied"
+msgstr ""
+
+#: ../backend/index.php:218 ../backend/pages/demos.php:157
+#: ../backend/pages/demos.php:176 ../backend/pages/demos.php:196
+#: ../backend/pages/demos.php:217
+msgid "Install"
+msgstr ""
+
+#: ../backend/index.php:244
+msgid "Activate"
+msgstr ""
+
+#: ../backend/index.php:266
+msgid "Update"
+msgstr ""
+
+#: ../backend/index.php:293
+msgid "Deactivate"
+msgstr ""
+
+#: ../backend/index.php:536 ../backend/pages/global/pages-header.php:23
+msgid "Welcome"
+msgstr ""
+
+#: ../backend/pages/demos.php:8
+msgid ""
+"We're sorry but the demo data could not import. It is most likely due to low "
+"PHP configurations on your server."
+msgstr ""
+
+#: ../backend/pages/demos.php:9
+#, php-format
+msgid ""
+"Please use %s to factory reset your Wordpress , then come back and retry."
+msgstr ""
+
+#: ../backend/pages/demos.php:31
+msgid "Server Environment"
+msgstr ""
+
+#: ../backend/pages/demos.php:37
+msgid "Server Memory Limit"
+msgstr ""
+
+#: ../backend/pages/demos.php:42
+msgid "PHP Time Limit"
+msgstr ""
+
+#: ../backend/pages/demos.php:48
+msgid "Max Upload Size"
+msgstr ""
+
+#: ../backend/pages/demos.php:63
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other "
+"scripts which communicate with other servers will not work. Contact your "
+"hosting provider."
+msgstr ""
+
+#: ../backend/pages/demos.php:74
+#, php-format
+msgid ""
+"Your server does not support the <a href=\"%s\">gzopen</a> function - this "
+"is required to use the GeoIP database from MaxMind. The API fallback will be "
+"used instead for geolocation."
+msgstr ""
+
+#: ../backend/pages/demos.php:78
+msgid "Remote Post"
+msgstr ""
+
+#: ../backend/pages/demos.php:92
+msgid ""
+"wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+"your hosting provider."
+msgstr ""
+
+#: ../backend/pages/demos.php:94 ../backend/pages/demos.php:112
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: ../backend/pages/demos.php:96 ../backend/pages/demos.php:114
+#, php-format
+msgid "Status code: %s"
+msgstr ""
+
+#: ../backend/pages/demos.php:102
+msgid "Remote Get"
+msgstr ""
+
+#: ../backend/pages/demos.php:110
+msgid ""
+"wp_remote_get() failed. The WooCommerce plugin updater won't work with your "
+"server. Contact your hosting provider."
+msgstr ""
+
+#: ../backend/pages/demos.php:139
+msgid "Good job! The demo data was successfully imported. You may need to"
+msgstr ""
+
+#: ../backend/pages/demos.php:139
+msgid "regenerate your thumbnails"
+msgstr ""
+
+#: ../backend/pages/demos.php:154
+msgid "Main Demo"
+msgstr ""
+
+#: ../backend/pages/demos.php:158 ../backend/pages/demos.php:177
+#: ../backend/pages/demos.php:197 ../backend/pages/demos.php:218
+msgid "Live Preview"
+msgstr ""
+
+#: ../backend/pages/demos.php:173
+msgid "Indie Store"
+msgstr ""
+
+#: ../backend/pages/demos.php:193
+msgid "Startup"
+msgstr ""
+
+#: ../backend/pages/demos.php:214
+msgid "Default Demo"
+msgstr ""
+
+#: ../backend/pages/global/pages-header.php:16
+msgid "Version"
+msgstr ""
+
+#: ../backend/pages/global/pages-header.php:17
+msgid "View Release Notes"
+msgstr ""
+
+#: ../backend/pages/plugins.php:64
+msgid "Required"
+msgstr ""
+
+#: ../backend/pages/registration.php:54 ../backend/pages/registration.php:118
+msgid "Submit Product Key"
+msgstr ""
+
+#: ../backend/pages/registration.php:65
+msgid "Product Activated"
+msgstr ""
+
+#: ../backend/pages/registration.php:86 ../backend/pages/registration.php:103
+msgid "Manage Product Keys"
+msgstr ""
+
+#: ../comments.php:21
+#, php-format
+msgid "One reply on “%2$s“"
+msgid_plural "%1$s replies on “%2$s“"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ shopkeeper
+#: ../comments.php:28 ../comments.php:48
+msgid "Comment navigation"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:29 ../comments.php:49
+msgid "&larr; Older Comments"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:30 ../comments.php:50
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:72
+msgid "Leave a Reply"
+msgstr ""
+
+# @ shopkeeper
+# @ woocommerce
+#: ../comments.php:76
+msgid "Name"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:78
+msgid "Email Address"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:80
+msgid "Website"
+msgstr ""
+
+# @ shopkeeper
+#: ../comments.php:86
+msgid "Message"
+msgstr ""
+
+#: ../content-none.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:17
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:20
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+# @ shopkeeper
+#: ../content-page.php:7 ../content.php:79
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ shopkeeper
+#: ../content-page.php:8 ../content.php:80
+msgid "Pages:"
+msgstr ""
+
+# @ shopkeeper
+#: ../footer.php:265 ../header-topbar.php:111
+msgid "Logout"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:246
+msgid "Top Bar Navigation"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:247
+msgid "Main Navigation"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:248
+msgid "Footer Navigation"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:253
+msgid "Secondary Navigation (Off-Canvas)"
+msgstr ""
+
+#: ../functions.php:259
+msgid "Centered Header - Left Navigation"
+msgstr ""
+
+#: ../functions.php:260
+msgid "Centered Header - Right Navigation"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:492
+msgid "Sidebar"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:502
+msgid "Footer Widget Area"
+msgstr ""
+
+# @ shopkeeper
+#: ../functions.php:512
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../functions.php:522
+msgid "Right Offcanvas Sidebar"
+msgstr ""
+
+#: ../functions.php:718
+msgid "Share this product"
+msgstr ""
+
+# @ shopkeeper
+#: ../header-centered-2menus.php:171 ../header-centered-menu-under.php:148
+#: ../header-default.php:135
+msgid "menu"
+msgstr ""
+
+# @ shopkeeper
+#: ../image.php:27
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span>. Size: <i class=\"fa fa-picture-o\"></i> <a href="
+"\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <i class="
+"\"fa fa-folder-open\"></i> <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:42
+msgid "Previous"
+msgstr ""
+
+#: ../image.php:46
+msgid "Next"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:25
+#: ../inc/addons/woocommerce-header-category-image.php:121
+#: ../inc/addons/woocommerce-header-category-image.php:233
+msgid "Header"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:29
+#: ../inc/addons/woocommerce-header-category-image.php:126
+msgid "Upload/Add image"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:30
+#: ../inc/addons/woocommerce-header-category-image.php:127
+msgid "Remove image"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:54
+#: ../inc/addons/woocommerce-header-category-image.php:153
+msgid "Choose an image"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:56
+#: ../inc/addons/woocommerce-header-category-image.php:155
+msgid "Use image"
+msgstr ""
+
+#: ../inc/addons/woocommerce-header-category-image.php:232
+msgid "Image"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:8 ../inc/custom-posts/portfolio.php:20
+msgid "Portfolio"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:9
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:10
+msgid "Add New"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:11
+msgid "Add New Portfolio item"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:12
+msgid "Edit Portfolio item"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:13
+msgid "New Portfolio item"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:14
+msgid "All Portfolio items"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:15
+msgid "View Portfolio item"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:16
+msgid "Search Portfolio item"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:17
+msgid "No Portfolio item found"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:18
+msgid "No Portfolio item found in Trash"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:52 ../inc/custom-posts/portfolio.php:65
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../inc/custom-posts/portfolio.php:53
+msgid "Portfolio Category"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:54
+msgid "Search Portfolio Categories"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:55
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:56
+msgid "All Portfolio Categories"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:57
+msgid "Edit Portfolio Category"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:58
+msgid "Update Portfolio Category"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:59
+msgid "Add New Portfolio Category"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:60
+msgid "New Portfolio Category Name"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:61
+msgid "Separate Portfolio Categories with commas"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:62
+msgid "Add or remove Portfolio Categories"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:63
+msgid "Choose from the most used Portfolio Categories"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/custom-posts/portfolio.php:64
+msgid "No Portfolio Category found."
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/shortcodes/google-map.php:13
+msgid "Get Directions"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/shortcodes/portfolio.php:71
+msgid "Show all"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:8 ../inc/templates/post-meta.php:36
+msgid "Sticky"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:12 ../inc/templates/post-meta.php:40
+msgid " by "
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:14 ../inc/templates/post-meta.php:42
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:25
+msgid " in "
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:68 ../inc/templates/post-meta.php:89
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../inc/templates/post-meta.php:72
+msgid " on "
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/post-meta.php:74 ../inc/templates/post-meta.php:95
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/template-tags.php:68
+msgid "Previous Reading"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/template-tags.php:72
+msgid "Next Reading"
+msgstr ""
+
+#: ../inc/templates/template-tags.php:82
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/templates/template-tags.php:88
+msgid "Newer posts"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/template-tags.php:145
+msgid "Pingback:"
+msgstr ""
+
+# @ shopkeeper
+# @ woocommerce
+#: ../inc/templates/template-tags.php:145
+#: ../inc/templates/template-tags.php:185
+msgid "Edit"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/template-tags.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ shopkeeper
+# @ woocommerce
+#: ../inc/templates/template-tags.php:163
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/templates/template-tags.php:168
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/widgets/social-media.php:14
+msgid "Shopkeeper Social Media Profiles"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/widgets/social-media.php:15
+msgid "A widget that displays Social Media Profiles"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/widgets/social-media.php:98
+msgid "Get Connected"
+msgstr ""
+
+# @ shopkeeper
+#: ../inc/widgets/social-media.php:103
+msgid "Title:"
+msgstr ""
+
+#: ../inc/woocommerce/quick_view.php:40
+msgid "Quick View"
+msgstr ""
+
+#: ../search.php:10
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+# @ shopkeeper
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+# @ shopkeeper
+#: ../searchform.php:3
+msgid "Search &hellip;"
+msgstr ""
+
+# @ shopkeeper
+#: ../searchform.php:4
+msgid "Search"
+msgstr ""
+
+# @ shopkeeper
+#: ../sidebar.php:20
+msgid "Meta"
+msgstr ""

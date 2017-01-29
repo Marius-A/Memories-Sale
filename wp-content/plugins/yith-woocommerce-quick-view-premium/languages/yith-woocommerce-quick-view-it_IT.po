@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Quick View\n"
+"POT-Creation-Date: 2016-10-20 17:42+0200\n"
+"PO-Revision-Date: 2016-10-20 17:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: YIThemes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../class.yith-wcqv-admin.php:132
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../class.yith-wcqv-admin.php:153
+msgid "General"
+msgstr "Generali"
+
+#: ../class.yith-wcqv-admin.php:154
+msgid "Product"
+msgstr "Prodotto"
+
+#: ../class.yith-wcqv-admin.php:155
+msgid "Style"
+msgstr "Stile"
+
+#: ../class.yith-wcqv-admin.php:161 ../class.yith-wcqv-admin.php:162
+#: ../plugin-options/general-options.php:193
+msgid "Quick View"
+msgstr "Quick view"
+
+#: ../class.yith-wcqv-admin.php:200
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: ../init.php:42
+msgid ""
+"YITH WooCommerce Quick View is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Quick View è abilitato ma non in funzione. Devi aver "
+"installato WooCommerce perché questo possa funzionare correttamente."
+
+#: ../plugin-options/general-options.php:10
+msgid "General Options"
+msgstr "Opzioni generali"
+
+#: ../plugin-options/general-options.php:18
+msgid "Enable Quick View"
+msgstr "Abilita quick view"
+
+#: ../plugin-options/general-options.php:25
+msgid "Enable Quick View on mobile"
+msgstr "Abilita quick view su dispositivi mobili"
+
+#: ../plugin-options/general-options.php:26
+msgid "Enable quick view features on mobile device too"
+msgstr "Abilita funzionalità quick view anche sui dispositivi mobili"
+
+#: ../plugin-options/general-options.php:33
+msgid "Enable Quick View on wishlist"
+msgstr "Abilita quick view in wishlist"
+
+#: ../plugin-options/general-options.php:34
+#, php-format
+msgid ""
+"Enable quick view on wishlist table (available only with modal window). You "
+"need %s installed."
+msgstr ""
+"Abilita la visualizzazione rapida nella tabella wishlist (disponibile solo "
+"per finestra modale). Devi aver installato %s."
+
+#: ../plugin-options/general-options.php:41
+msgid "Enable Lightbox"
+msgstr "Abilita lightbox"
+
+#: ../plugin-options/general-options.php:42
+msgid "Enable lightbox. Product images will open in a lightbox."
+msgstr ""
+"Abilita la lightbox. Le immagini dei prodotti si apriranno in una lightbox."
+
+#: ../plugin-options/general-options.php:49
+msgid "Quick View Navigation"
+msgstr "Navigazione quick view"
+
+#: ../plugin-options/general-options.php:50
+msgid ""
+"Enable product navigation on quick view. NOTE: only available on modal "
+"window style."
+msgstr ""
+"Abilita scorrimento prodotti all’interno della quick view. NOTA: disponibile "
+"solo per lo stile finestra modale."
+
+#: ../plugin-options/general-options.php:58
+msgid "Enable navigation in the same product category"
+msgstr "Abilita navigazione nella stessa categoria prodotti"
+
+#: ../plugin-options/general-options.php:66
+msgid "Quick View Navigation Style"
+msgstr "Stile navigazione quick view"
+
+#: ../plugin-options/general-options.php:69
+msgid "Slide ( thumbnail and product name )"
+msgstr "Scorrimento (miniatura e nome prodotto)"
+
+#: ../plugin-options/general-options.php:70
+msgid "Rotate ( thumbnail )"
+msgstr "Rotazione (miniatura)"
+
+#: ../plugin-options/general-options.php:78
+msgid "Quick View Type"
+msgstr "Tipologia quick view"
+
+#: ../plugin-options/general-options.php:81
+msgid "Modal Window"
+msgstr "Finestra modale"
+
+#: ../plugin-options/general-options.php:82
+msgid "Cascading"
+msgstr "A cascata"
+
+#: ../plugin-options/general-options.php:90
+msgid "Select modal effect"
+msgstr "Selezione effetto modale"
+
+#: ../plugin-options/general-options.php:93
+msgid "Slide in"
+msgstr "Scorrimento"
+
+#: ../plugin-options/general-options.php:94
+msgid "Fade in"
+msgstr "Dissolvenza"
+
+#: ../plugin-options/general-options.php:95
+msgid "Scale up"
+msgstr "Ingrandimento"
+
+#: ../plugin-options/general-options.php:107
+msgid "Modal window loading"
+msgstr "Caricamento finestra modale"
+
+#: ../plugin-options/general-options.php:108
+msgid "Enable overlay during loading of the modal window."
+msgstr "Abilita overlay durante il caricamento della finestra modale."
+
+#: ../plugin-options/general-options.php:119
+msgid "Modal Loading Text"
+msgstr "Testo caricamento modale"
+
+#: ../plugin-options/general-options.php:120
+msgid ""
+"Enter here the text to show during quick view loading when modal overlay is "
+"enabled."
+msgstr ""
+"Inserisci qui il testo da mostrare durante il caricamento della quick view "
+"quando è abilitato l'overlay modale."
+
+#: ../plugin-options/general-options.php:122
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: ../plugin-options/general-options.php:131
+msgid "Modal Width"
+msgstr "Larghezza finestra"
+
+#: ../plugin-options/general-options.php:132
+msgid "Set width of modal window."
+msgstr "Selezione la larghezza della finestra modale"
+
+#: ../plugin-options/general-options.php:144
+msgid "Modal Height"
+msgstr "Altezza finestra"
+
+#: ../plugin-options/general-options.php:145
+msgid "Set height of modal window."
+msgstr "Seleziona l’altezza della finestra modale"
+
+#: ../plugin-options/general-options.php:161
+msgid "Button Options"
+msgstr "Opzioni pulsante"
+
+#: ../plugin-options/general-options.php:169
+msgid "Quick View Button Type"
+msgstr "Tipo di pulsante quick view"
+
+#: ../plugin-options/general-options.php:170
+#: ../plugin-options/general-options.php:191
+msgid "Label for the quick view button in the WooCommerce loop."
+msgstr "Testo per il pulsante Quick view nella pagina shop di WooCommerce"
+
+#: ../plugin-options/general-options.php:173
+msgid "Use button"
+msgstr "Usa pulsante"
+
+#: ../plugin-options/general-options.php:174
+msgid "Use icon"
+msgstr "Usa icona"
+
+#: ../plugin-options/general-options.php:182
+msgid "Quick View Button Icon"
+msgstr "Icona pulsante quick view"
+
+#: ../plugin-options/general-options.php:183
+msgid "Icon for the quick view button in the WooCommerce loop."
+msgstr "Icona per il pulsante Quick view nella pagina shop di WooCommerce"
+
+#: ../plugin-options/general-options.php:190
+msgid "Quick View Button Label"
+msgstr "Testo pulsante quick view"
+
+#: ../plugin-options/general-options.php:198
+msgid "Quick View Button Position"
+msgstr "Posizione pulsante Quick view"
+
+#: ../plugin-options/general-options.php:199
+msgid "Position of the quick view button."
+msgstr "Posizione del pulsante Quick view"
+
+#: ../plugin-options/general-options.php:202
+msgid "After 'add to cart' button"
+msgstr "Dopo il pulsante ‘Aggiungi al carrello’"
+
+#: ../plugin-options/general-options.php:203
+msgid "Inside product image"
+msgstr "Dentro l’immagine prodotto"
+
+#: ../plugin-options/product-options.php:10
+msgid "Content Options"
+msgstr "Opzioni contenuto"
+
+#: ../plugin-options/product-options.php:18
+msgid "Select Element to Show"
+msgstr "Seleziona elemento da mostrare"
+
+#: ../plugin-options/product-options.php:19
+msgid "Show Product Image"
+msgstr "Mostra immagine prodotto"
+
+#: ../plugin-options/product-options.php:27
+msgid "Show Product Name"
+msgstr "Mostra nome prodotto"
+
+#: ../plugin-options/product-options.php:35
+msgid "Show Product Rating"
+msgstr "Mostra valutazione prodotto"
+
+#: ../plugin-options/product-options.php:43
+msgid "Show Product Price"
+msgstr "Mostra prezzo prodotto"
+
+#: ../plugin-options/product-options.php:51
+msgid "Show Product Excerpt"
+msgstr "Mostra riepilogo prodotto"
+
+#: ../plugin-options/product-options.php:59
+msgid "Show Product Add To Cart"
+msgstr "Mostra ”Aggiungi al carrello” del prodotto"
+
+#: ../plugin-options/product-options.php:67
+msgid "Show Wishlist Button"
+msgstr "Mostra pulsante Lista dei desideri"
+
+#: ../plugin-options/product-options.php:75
+msgid "Show Compare Button"
+msgstr "Mostra pulsante Confronta"
+
+#: ../plugin-options/product-options.php:83
+msgid "Show Request Quote Button"
+msgstr "Mostra pulsante Richiedi preventivo"
+
+#: ../plugin-options/product-options.php:91
+msgid "Show Product Meta"
+msgstr "Mostra meta prodotto"
+
+#: ../plugin-options/product-options.php:99
+msgid "Show full description"
+msgstr "Mostra descrizione completa"
+
+#: ../plugin-options/product-options.php:100
+msgid "Show full description instead of short description"
+msgstr "Mostra descrizione completa invece che la descrizione breve"
+
+#: ../plugin-options/product-options.php:107
+msgid "Product Image Width"
+msgstr "Larghezza immagine prodotto"
+
+#: ../plugin-options/product-options.php:108
+msgid "Set width of product image."
+msgstr "Imposta la larghezza dell’immagine del prodotto."
+
+#: ../plugin-options/product-options.php:115
+msgid "Product Image Height"
+msgstr "Altezza immagine prodotto"
+
+#: ../plugin-options/product-options.php:116
+msgid "Set height of product image."
+msgstr "Imposta l’altezza dell’immagine del prodotto."
+
+#: ../plugin-options/product-options.php:124
+msgid "Select Thumbnails Type"
+msgstr "Seleziona tipo di miniatura"
+
+#: ../plugin-options/product-options.php:127
+msgid "Don't show"
+msgstr "Non mostrare"
+
+#: ../plugin-options/product-options.php:128
+msgid "Slider mode"
+msgstr "Modalità scorrimento"
+
+#: ../plugin-options/product-options.php:129
+msgid "Classic mode"
+msgstr "Modalità classica"
+
+#: ../plugin-options/product-options.php:137
+msgid "Use custom HTML thumbnails"
+msgstr "Utilizza le tue thumbnail HTML"
+
+#: ../plugin-options/product-options.php:138
+msgid "Use custom HTML thumbnails instead of WooCommerce standard ones."
+msgstr ""
+"Utilizza le tue thumbnail HTML invece che quelle standard di WooCommerce."
+
+#: ../plugin-options/product-options.php:145
+msgid "Enable image zoom"
+msgstr "Abilita zoom immagine"
+
+#: ../plugin-options/product-options.php:146
+#, php-format
+msgid ""
+"Enable the plugin YITH WooCommerce Zoom Magnifier on quick view (not "
+"available for slider mode). You need %s installed."
+msgstr ""
+"Abilita le funzionalità del plugin YITH WooCommerce Zoom Magnifier nella "
+"quick view (non disponibile per la modalità scorrimento). Devi aver "
+"installato %s."
+
+#: ../plugin-options/product-options.php:153
+msgid "Add 'View Details' Button"
+msgstr "Aggiungi pulsante ’Visualizza dettagli’"
+
+#: ../plugin-options/product-options.php:154
+msgid "Check this option to add a button to go to the single product page."
+msgstr ""
+"Seleziona questa opzione per aggiungere un pulsante che riporti alla pagina "
+"singolo prodotto."
+
+#: ../plugin-options/product-options.php:161
+msgid "'View Details' Button Label"
+msgstr "Testo pulsante ’Visualizza dettagli’"
+
+#: ../plugin-options/product-options.php:162
+msgid "Set label for 'View Details' button"
+msgstr "Scegli il testo del pulsante ’Visualizza dettagli’"
+
+#: ../plugin-options/product-options.php:164
+msgid "View Details"
+msgstr "Visualizza dettagli"
+
+#: ../plugin-options/product-options.php:173
+msgid "Enable Ajax Add To Cart"
+msgstr "Abilita “Aggiungi al carrello” in ajax"
+
+#: ../plugin-options/product-options.php:174
+msgid "Check this option to enable add to cart in ajax"
+msgstr ""
+"Seleziona questa opzione per abilitare il pulsante ”Aggiungi al carrello” in "
+"ajax"
+
+#: ../plugin-options/product-options.php:181
+msgid "Redirect to checkout after add to cart"
+msgstr "Reindirizza al checkout dopo aver aggiunto un prodotto al carrello"
+
+#: ../plugin-options/product-options.php:182
+msgid "Check this option to redirect to checkout after add to cart"
+msgstr ""
+"Metti una spunta a questa opzione per portare gli utenti alla pagina "
+"checkout dopo che hanno aggiunto un prodotto al carrello"
+
+#: ../plugin-options/product-options.php:193
+msgid "Share Options"
+msgstr "Opzioni di condivisione"
+
+#: ../plugin-options/product-options.php:201
+msgid "Enable Share"
+msgstr "Abilita condivisione"
+
+#: ../plugin-options/product-options.php:202
+msgid ""
+"Check this option if you want to show the share link for products in quick "
+"view"
+msgstr ""
+"Seleziona questa opzione se vuoi mostrare il link di condivisione per i "
+"prodotti nella quick view"
+
+#: ../plugin-options/product-options.php:209
+msgid "Select Socials"
+msgstr "Seleziona social"
+
+#: ../plugin-options/product-options.php:212
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../plugin-options/product-options.php:213
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../plugin-options/product-options.php:214
+msgid "Google+"
+msgstr "Google+"
+
+#: ../plugin-options/product-options.php:215
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../plugin-options/product-options.php:216
+msgid "eMail"
+msgstr "email"
+
+#: ../plugin-options/product-options.php:224
+msgid "Facebook App ID"
+msgstr "ID App di Facebook"
+
+#: ../plugin-options/product-options.php:225
+#, php-format
+msgid ""
+"Facebook App ID necessary to share contents. Read more in the official "
+"Facebook <a href=\"%s\">documentation</a>"
+msgstr ""
+"ID dell'applicazione Facebook necessario per la condivisione dei contenuti. "
+"Per ulteriori dettagli leggi la <a href=\"%s\">documentazione</a> ufficiale "
+"di Facebook"
+
+#: ../plugin-options/style-options.php:8
+msgid "General Style"
+msgstr "Stile generale"
+
+#: ../plugin-options/style-options.php:15
+msgid "Modal Window Background Color"
+msgstr "Colore finestra modale"
+
+#: ../plugin-options/style-options.php:24
+msgid "'Quick View' Button Color"
+msgstr "Colore pulsante 'Quick View'"
+
+#: ../plugin-options/style-options.php:32
+msgid "'Quick View' Button Text Color"
+msgstr "Colore testo pulsante 'Quick View'"
+
+#: ../plugin-options/style-options.php:40
+msgid "'Quick View' Button Hover Color "
+msgstr "Colore pulsante 'Quick View' al passaggio del mouse"
+
+#: ../plugin-options/style-options.php:48
+msgid "'Quick View' Button Hover Text Color"
+msgstr "Colore testo pulsante 'Quick View' al passaggio del mouse"
+
+#: ../plugin-options/style-options.php:60
+msgid "Content Style"
+msgstr "Stile contenuto"
+
+#: ../plugin-options/style-options.php:68
+msgid "Main Text Color"
+msgstr "Colore principale testo"
+
+#: ../plugin-options/style-options.php:76
+msgid "Star Color"
+msgstr "Colore stellina"
+
+#: ../plugin-options/style-options.php:84
+msgid "'Add to Cart' Button Color"
+msgstr "Colore pulsante ‘Aggiungi al carrello’"
+
+#: ../plugin-options/style-options.php:92
+msgid "'Add to Cart' Button Text Color"
+msgstr "Colore testo pulsante ‘Aggiungi al carrello’"
+
+#: ../plugin-options/style-options.php:100
+msgid "'Add to Cart' Button Hover Color "
+msgstr "Colore pulsante ‘Aggiungi al carrello’ al passaggio del mouse"
+
+#: ../plugin-options/style-options.php:108
+msgid "'Add to Cart' Button Hover Text Color"
+msgstr "Colore testo pulsante ‘Aggiungi al carrello’ al passaggio del mouse"
+
+#: ../plugin-options/style-options.php:116
+msgid "'View Details' Button Color"
+msgstr "Colore pulsante ‘Visualizza dettagli’"
+
+#: ../plugin-options/style-options.php:124
+msgid "'View Details' Button Text Color"
+msgstr "Colore testo pulsante ‘Visualizza dettagli’"
+
+#: ../plugin-options/style-options.php:132
+msgid "'View Details' Button Hover Color "
+msgstr "Colore pulsante ‘Visualizza dettagli’ al passaggio del mouse "
+
+#: ../plugin-options/style-options.php:140
+msgid "'View Details' Button Hover Text Color"
+msgstr "Colore testo pulsante ‘Visualizza dettagli’ al passaggio del mouse "
+
+#: ../templates/yith-quick-view-share.php:51
+msgid "May I ask you to see this product, please?"
+msgstr "Posso chiederti di guardare questo prodotto, per favore?"
+
+#~ msgid "Closing Icon Color"
+#~ msgstr "Colore icona chiusura"
+
+#~ msgid "Closing Icon Hover Color"
+#~ msgstr "Colore icona chiusura al passaggio del mouse"
+
+#~ msgid "Use custom thumbs html instead of standard woocommerce."
+#~ msgstr ""
+#~ "Utilizza le tue thumbnail HMTL invece che quelle standard di WooCommerce."
+
+#~ msgid "Enable image zoom magnifier"
+#~ msgstr "Abilita zoom immagine"
+
+#~ msgid ""
+#~ "Enable image zoom magnifier plugin features on quick view ( not available "
+#~ "for slider mode ). You need %s installed."
+#~ msgstr ""
+#~ "Abilita le funzionalità del plugin YITH WooCommerce Zoom Magnifier nella "
+#~ "quick view (non disponibile per la modalità scorrimento). Devi aver "
+#~ "installato %s."
+
+#~ msgid "Enable overlay during modal loading."
+#~ msgstr "Abilita sovrapposizione durante il caricamento modale."
+
+#~ msgid "Modal Loading"
+#~ msgstr "Caricamento finestra modale"
