@@ -23,13 +23,13 @@
 define('DB_NAME', 'store-wp');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'dev');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'parolaroot');
+define('DB_PASSWORD', 'paroladev');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'dev1.cc4zjfzcaqjp.eu-west-2.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
